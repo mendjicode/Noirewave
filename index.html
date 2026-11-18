@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101011" />
+  <meta name="description" content="NOIRWAVE - демонстрационный сайт музыкального продюсера. Каталог битов, прослушивание и лицензии." />
+  <title>NOIRWAVE - Beats & Sound</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="NOIRWAVE, на главную"><span class="brand-mark">N<span>.</span></span><span class="brand-label">NOIRWAVE<span class="brand-sub">BEATS & SOUND</span></span></a>
+      <nav class="nav-links" aria-label="Главная навигация">
+        <a href="#beats">Биты</a><a href="#about">Обо мне</a><a href="#licenses">Лицензии</a>
+      </nav>
+      <a href="#contact" class="nav-cta">Связаться <span aria-hidden="true">↗</span></a>
+      <button class="mobile-menu" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav shell" aria-label="Мобильная навигация" hidden><a href="#beats">Биты</a><a href="#about">Обо мне</a><a href="#licenses">Лицензии</a><a href="#contact">Связаться</a></nav>
+  </header>
+
+  <main>
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> ЗВУК, КОТОРЫЙ ОСТАЁТСЯ</p>
+        <h1 id="hero-title">ТВОЙ ГОЛОС.<br /><em>МОЙ ЗВУК.</em></h1>
+        <p class="hero-desc">Атмосферные биты для музыки, которая чувствуется. От тёмного трэпа до меланхоличного альтернативного звучания.</p>
+        <div class="hero-buttons"><a class="button button-primary" href="#beats">Слушать биты <span>↗</span></a><a class="button button-outline" href="#about">Узнать больше <span>↗</span></a></div>
+        <div class="hero-stats"><div><strong>06</strong><span>демо-битов</span></div><div class="stats-rule"></div><div><strong>03</strong><span>направления</span></div><div class="stats-rule"></div><div><strong>100%</strong><span>оригинальные демо</span></div></div>
+      </div>
+      <div class="hero-visual" aria-label="Декоративная абстрактная композиция">
+        <div class="orbit orbit-1"></div><div class="orbit orbit-2"></div><div class="orbit orbit-3"></div>
+        <div class="vinyl"><div class="vinyl-center"><span>N<span class="lime">.</span></span><small>NOIRWAVE<br />STEREO</small></div></div>
+        <div class="floating-label fl-top"><span class="tiny-square"></span> INDEPENDENT SOUND</div>
+        <div class="floating-label fl-bottom">EST. 2026 <span>↗</span></div>
+        <div class="visual-glow"></div>
+      </div>
+      <div class="hero-edge">TURN THE FEELING INTO SOUND <span>✳</span> ORIGINAL BEATS / 2026</div>
+    </section>
+
+    <section class="catalog-section" id="beats" aria-labelledby="beats-title">
+      <div class="shell">
+        <div class="section-heading"><div><p class="eyebrow">01 / КАТАЛОГ</p><h2 id="beats-title">НАЙДИ СВОЙ <em>ВАЙБ.</em></h2><p class="section-desc">Выбирай настроение. Нажми Play и послушай оригинальные инструментальные демо прямо в браузере.</p></div><span class="section-index">SELECTED SOUNDS / 001-006</span></div>
+        <div class="catalog-toolbar"><div class="filters" role="group" aria-label="Фильтр по жанру"><button class="filter active" data-filter="all" type="button" aria-pressed="true">Все <span>06</span></button><button class="filter" data-filter="trap" type="button" aria-pressed="false">Trap</button><button class="filter" data-filter="ambient" type="button" aria-pressed="false">Ambient</button><button class="filter" data-filter="rnb" type="button" aria-pressed="false">R&B</button></div><span class="catalog-tip"><span class="pulse-icon">♫</span> НАЖМИ, ЧТОБЫ СЛУШАТЬ</span></div>
+        <div class="beat-grid" id="beat-grid"></div>
+        <div class="catalog-footer"><span>© DEMO CATALOG 2026</span><span>СОЗДАНО ДЛЯ ПОРТФОЛИО, НЕ ДЛЯ ПРОДАЖИ</span></div>
+      </div>
+    </section>
+
+    <section class="about-section shell" id="about"><div class="about-art" aria-hidden="true"><span class="art-caption">FEEL<br />EVERY<br />FREQUENCY<span>.</span></span><span class="art-corner">NW / 002</span><div class="art-stripes"></div></div><div class="about-copy"><p class="eyebrow">02 / ФИЛОСОФИЯ</p><h2>МУЗЫКА<br />НАЧИНАЕТСЯ<br /><em>С ЧУВСТВА.</em></h2><p>У каждого трека есть история. Мне нравится создавать пространство для твоих слов: с деталями, характером и атмосферой, в которую хочется возвращаться.</p><p>Этот сайт - демонстрационный концепт для портфолио разработчика. Название продюсера, каталог и условия лицензирования приведены как пример.</p><a class="text-link" href="#contact">Обсудить сотрудничество <span>↗</span></a></div></section>
+
+    <section class="license-section" id="licenses"><div class="shell"><div class="section-heading"><div><p class="eyebrow">03 / ЛИЦЕНЗИИ</p><h2>ВЫБЕРИ <em>СВОЙ ФОРМАТ.</em></h2><p class="section-desc">Пример оформления тарифов для будущего музыкального магазина.</p></div></div><div class="license-grid"><article class="license-card"><div class="license-top"><span>01 / BASIC</span><span>ДЛЯ НАЧАЛА</span></div><h3>MP3 Lease</h3><p>Для демо, первых релизов и творческих экспериментов.</p><div class="license-cost">1 490 ₽ <small>/ пример цены</small></div><ul><li>MP3 высокого качества</li><li>Некоммерческие и ограниченные релизы</li><li>Указание авторства</li></ul><button class="button button-outline license-btn" type="button" data-license="MP3 Lease">Уточнить условия <span>↗</span></button></article><article class="license-card featured"><div class="license-top"><span>02 / PREMIUM</span><span class="popular-tag">ПОПУЛЯРНЫЙ</span></div><h3>WAV Lease</h3><p>Для артистов, которым важны детализация и качество звучания.</p><div class="license-cost">2 990 ₽ <small>/ пример цены</small></div><ul><li>WAV + MP3</li><li>Более широкие права на использование</li><li>Указание авторства</li></ul><button class="button button-primary license-btn" type="button" data-license="WAV Lease">Уточнить условия <span>↗</span></button></article><article class="license-card"><div class="license-top"><span>03 / EXCLUSIVE</span><span>ИНДИВИДУАЛЬНО</span></div><h3>Exclusive</h3><p>Для уникального релиза и индивидуальных условий.</p><div class="license-cost">По запросу</div><ul><li>Индивидуальное соглашение</li><li>Обсуждение исходных дорожек</li><li>Условия использования по договору</li></ul><button class="button button-outline license-btn" type="button" data-license="Exclusive">Обсудить условия <span>↗</span></button></article></div><p class="license-disclaimer">* Все цены и условия - демонстрационные. Реальные права на использование определяются отдельным договором с правообладателем.</p></div></section>
+
+    <section class="contact-section shell" id="contact"><p class="eyebrow">04 / КОНТАКТ</p><h2>ЕСТЬ ИДЕЯ?<br /><em>ДАВАЙ ЗВУЧАТЬ.</em></h2><p>Для реального проекта здесь можно разместить Telegram, email или форму заявки. В этой демоверсии ты можешь составить и скопировать пример сообщения.</p><button class="button button-primary" id="open-contact" type="button">Составить запрос <span>↗</span></button><div class="contact-watermark">LET'S CREATE SOMETHING REAL.</div></section>
+  </main>
+  <footer class="footer"><div class="shell footer-inner"><a class="brand" href="#top"><span class="brand-mark">N<span>.</span></span><span class="brand-label">NOIRWAVE<span class="brand-sub">BEATS & SOUND</span></span></a><span>DEMO PROJECT / НЕ РЕАЛЬНЫЙ МАГАЗИН</span><a href="#top">НАВЕРХ ↑</a></div></footer>
+  <div class="player" id="player" hidden><div class="shell player-inner"><div class="player-cover" id="player-cover">NW</div><div class="player-info"><strong id="player-title">-</strong><span id="player-subtitle">-</span></div><button class="player-play" id="player-toggle" type="button" aria-label="Пауза">Ⅱ</button><div class="player-progress"><div class="player-progress-fill" id="player-progress-fill"></div></div><span id="player-time" class="player-time">0:00</span><button class="player-close" id="player-close" type="button" aria-label="Закрыть проигрыватель">✕</button></div></div>
+  <dialog class="request-dialog" id="request-dialog" aria-labelledby="dialog-title"><form method="dialog"><button class="dialog-close" value="cancel" aria-label="Закрыть">✕</button></form><p class="eyebrow">DEMO / REQUEST</p><h3 id="dialog-title">ЗАПРОС НА БИТ</h3><p>Это демонстрационная версия сайта. Контактные данные продюсера не подключены, но можно скопировать готовый текст заявки.</p><label for="request-text">Текст заявки</label><textarea id="request-text" rows="5" readonly></textarea><div class="dialog-actions"><button class="button button-primary" id="copy-request" type="button">Скопировать текст <span>↗</span></button><button class="button button-outline" id="close-request" type="button">Закрыть</button></div><p class="copy-feedback" id="copy-feedback" role="status" aria-live="polite"></p></dialog>
+  <script src="script.js" defer></script>
+</body>
+</html>
